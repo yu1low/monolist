@@ -1,0 +1,117 @@
+=> [32m#<Amazon::Ecs::Response:0x00000005b2dd38[0m
+ @doc[32m=[0m
+  [1;34m#(Document:0x2d96e38 {[0m
+    name = [31m[1;31m"[0m[31mdocument[1;31m"[0m[31m[0m,
+    children = [
+      [1;34m#(Element:0x2dd9b5c {[0m
+        name = [31m[1;31m"[0m[31mItemSearchResponse[1;31m"[0m[31m[0m,
+        children = [
+          [1;34m#(Element:0x2e01594 {[0m
+            name = [31m[1;31m"[0m[31mOperationRequest[1;31m"[0m[31m[0m,
+            children = [
+              [1;34m#(Element:0x2de2f04 {[0m
+                name = [31m[1;31m"[0m[31mHTTPHeaders[1;31m"[0m[31m[0m,
+                children = [
+                  [1;34m#(Element:0x2e0cb4c {[0m
+                    name = [31m[1;31m"[0m[31mHeader[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x2e2dec8 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mUserAgent[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x2e2deb4 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mRuby[1;31m"[0m[31m[0m })]
+                    })]
+                }),
+              [1;34m#(Element:0x2e7901c {[0m name = [31m[1;31m"[0m[31mRequestId[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mc68c53f7-d25f-4e4e-b19b-82ac2dee56b4[1;31m"[0m[31m[0m)] }),
+              [1;34m#(Element:0x2eb0954 {[0m
+                name = [31m[1;31m"[0m[31mArguments[1;31m"[0m[31m[0m,
+                children = [
+                  [1;34m#(Element:0x2ebd9d8 {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x2ebcd44 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mAWSAccessKeyId[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x2ebcd1c {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mAKIAIIVEAM4522BQPCDA[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x2fa8988 {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [ [1;34m#(Attr:0x2f95d4c {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mAssociateTag[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x2f91f94 {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x2f8b234 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mKeywords[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x2f8b20c {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mruby[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x2ef5be4 {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x2ef43c0 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mOperation[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x2ef43ac {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mItemSearch[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x2ec31e4 {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x2ebd4d8 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mResponseGroup[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x2ebd4c4 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mMedium[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x2e8ea34 {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x2e894bc {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mSearchIndex[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x2e89480 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mAll[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x2e5e618 {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x2e58ce0 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mService[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x2e58ccc {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mAWSECommerceService[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x2e27cbc {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x2e238ec {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mTimestamp[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x2e238d8 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m2015-12-27T07:39:46Z[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x2deb104 {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x2de60c8 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mVersion[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x2de60b4 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m2011-08-01[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x2da783c {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x2da3f5c {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mSignature[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x2da3f48 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mGwbU+aqy7b6RjRKmvsdJpW0nM4DlPYbf1dypCjEFQfY=[1;31m"[0m[31m[0m })]
+                    })]
+                }),
+              [1;34m#(Element:0x2d6aec8 {[0m name = [31m[1;31m"[0m[31mRequestProcessingTime[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m0.0017914210000000[1;31m"[0m[31m[0m)] })]
+            }),
+          [1;34m#(Element:0x2d4b6f4 {[0m
+            name = [31m[1;31m"[0m[31mItems[1;31m"[0m[31m[0m,
+            children = [
+              [1;34m#(Element:0x2d4180c {[0m
+                name = [31m[1;31m"[0m[31mRequest[1;31m"[0m[31m[0m,
+                children = [
+                  [1;34m#(Element:0x2d35cb4 {[0m name = [31m[1;31m"[0m[31mIsValid[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mFalse[1;31m"[0m[31m[0m)] }),
+                  [1;34m#(Element:0x2d20cec {[0m
+                    name = [31m[1;31m"[0m[31mItemSearchRequest[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Element:0x2d0be64 {[0m name = [31m[1;31m"[0m[31mKeywords[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mruby[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x2cf7e28 {[0m name = [31m[1;31m"[0m[31mResponseGroup[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mMedium[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x2cdc5c4 {[0m name = [31m[1;31m"[0m[31mSearchIndex[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mAll[1;31m"[0m[31m[0m)] })]
+                    }),
+                  [1;34m#(Element:0x2cb684c {[0m
+                    name = [31m[1;31m"[0m[31mErrors[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Element:0x2cac34c {[0m
+                        name = [31m[1;31m"[0m[31mError[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x2c9bf38 {[0m name = [31m[1;31m"[0m[31mCode[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mAWS.MissingParameters[1;31m"[0m[31m[0m)] }),
+                          [1;34m#(Element:0x2c8489c {[0m
+                            name = [31m[1;31m"[0m[31mMessage[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mリクエストには、必要なパラメータが含まれていません。必要なパラメータには、AssociateTagなどがあります。[1;31m"[0m[31m[0m)]
+                            })]
+                        })]
+                    })]
+                })]
+            })]
+        })]
+    })[32m>[0m
