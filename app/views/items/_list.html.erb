@@ -16,7 +16,9 @@
             <%= item.title %>
           </p>
         </div>
-        <%= render 'items/action' , item: item if logged_in? %>
+        <div class="action clearfix">
+          <%= render 'items/action' , item: item if logged_in? %>
+        </div>
       </div>
     <% end %>
   </div>
