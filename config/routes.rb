@@ -6,6 +6,13 @@ Rails.application.routes.draw do
   get    'login' , to: 'sessions#new'
   post   'login' , to: 'sessions#create'
   delete 'logout', to: 'sessions#destroy'
+  
+  resources :items do
+    member do
+      get :want_users
+      get :have_users
+    end
+  end
 
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
