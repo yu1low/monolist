@@ -1,0 +1,3 @@
+<% @want_ranking.each do |item , count| %>
+<%= Item.find(:item_id => item) %><%= count %>
+<% end %>
