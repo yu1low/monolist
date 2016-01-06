@@ -2,7 +2,9 @@ class RankingController < ApplicationController
   
   def want
     want_count = Want.group(:item_id).order('count_item_id desc').limit(10).count(:item_id)
-    @want_ranking = Item.find(want_count.keys)
+    @item = Item.find(want_count.keys)
+    @want_ranking = @item.order('want_count.values desc')
+    
   end
   
   def have
